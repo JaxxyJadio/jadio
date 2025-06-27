@@ -1,0 +1,12 @@
+# Ignore compiled files
+*.log
+*.tmp
+
+# Ignore node modules
+node_modules/
+
+# Ignore environment variables
+.env
+
+# Ignore VS Code specific files (sometimes you want to share these, sometimes not)
+.vscode/

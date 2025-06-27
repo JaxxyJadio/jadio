@@ -1,0 +1,32 @@
+{
+    "init": {
+        "module": "init",
+        "function": "init_project",
+        "description": "Initialize a new jadio project"
+    },
+    "install": {
+        "module": "install", 
+        "function": "install_package",
+        "description": "Install a jadio package"
+    },
+    "remove": {
+        "module": "remove",
+        "function": "remove_package", 
+        "description": "Remove a jadio package"
+    },
+    "run": {
+        "module": "run",
+        "function": "run_script",
+        "description": "Run a jadio script"
+    },
+    "list": {
+        "module": "install",
+        "function": "list_packages",
+        "description": "List installed packages"
+    },
+    "help": {
+        "module": "main",
+        "function": "show_help",
+        "description": "Show help information"
+    }
+}
